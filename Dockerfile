@@ -1,18 +1,42 @@
-# Use Node.js base image
-FROM ghcr.io/puppeteer/puppeteer:latest
+FROM node:18-slim
 
-# Set working directory
+# Install required OS dependencies for Chromium
+RUN apt-get update && apt-get install -y \
+  wget \
+  ca-certificates \
+  fonts-liberation \
+  libappindicator3-1 \
+  libasound2 \
+  libatk-bridge2.0-0 \
+  libatk1.0-0 \
+  libcups2 \
+  libdbus-1-3 \
+  libgdk-pixbuf2.0-0 \
+  libnspr4 \
+  libnss3 \
+  libx11-xcb1 \
+  libxcomposite1 \
+  libxdamage1 \
+  libxrandr2 \
+  xdg-utils \
+  --no-install-recommends && \
+  apt-get clean && \
+  rm -rf /var/lib/apt/lists/*
+
+# Create app directory
 WORKDIR /app
 
-# Copy package files and install dependencies
+# Copy package files
 COPY package*.json ./
+
+# Install dependencies (Puppeteer included)
 RUN npm install
 
-# Copy the rest of the app
+# Copy remaining app code
 COPY . .
 
-# Expose the port your Express app runs on
+# Optional: expose a port
 EXPOSE 3000
 
-# Start the app with PM2 (optional) or plain Node
+# Start app
 CMD ["node", "app.js"]
