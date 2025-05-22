@@ -2,7 +2,6 @@ FROM node:18
 
 # Install required OS dependencies for Chromium
 RUN apt-get update && apt-get install -y \
-  wget \
   ca-certificates \
   fonts-liberation \
   libappindicator3-1 \
@@ -18,7 +17,9 @@ RUN apt-get update && apt-get install -y \
   libxcomposite1 \
   libxdamage1 \
   libxrandr2 \
+  libgbm1 \
   xdg-utils \
+  wget \
   --no-install-recommends && \
   apt-get clean && \
   rm -rf /var/lib/apt/lists/*
