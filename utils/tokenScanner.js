@@ -17,7 +17,7 @@ async function scrapePumpFunTokens() {
   const page = await browser.newPage();
 
   await page.goto('https://pump.fun/board?coins_sort=created_timestamp', {
-    waitUntil: 'domcontentloaded',
+    waitUntil: 'networkidle0',
     timeout: 60000
   });
 
