@@ -11,7 +11,7 @@ async function runSniperPipeline() {
   console.log(`🔄 [SNIPER] Running full pipeline: ${new Date().toLocaleTimeString()}`);
   logEvent('SNIPER', 'Running full pipeline');
 
-  //try {
+  try {
     // 🔍 Always run this first to verify page load
     //const screenshotPath = await screenshotPumpFun();
     //if (screenshotPath) {
