@@ -1,0 +1,30 @@
+<%- include('partials/header') %>
+
+<section class="max-w-4xl mx-auto mt-10 px-4">
+  <h1 class="text-3xl font-bold mb-6">🚀 Pump.fun Sniper Dashboard</h1>
+
+  <div class="grid gap-6 grid-cols-1 md:grid-cols-2">
+    <a href="/export" class="bg-blue-600 hover:bg-blue-700 text-white p-6 rounded-lg shadow flex items-center justify-between">
+      <div>
+        <h2 class="text-xl font-semibold mb-1">📦 Export Token Data</h2>
+        <p class="text-sm text-blue-100">Download tokens as JSON or CSV by day.</p>
+      </div>
+      <span class="text-3xl">→</span>
+    </a>
+
+    <a href="/logs" class="bg-gray-800 hover:bg-gray-900 text-white p-6 rounded-lg shadow flex items-center justify-between">
+      <div>
+        <h2 class="text-xl font-semibold mb-1">📜 View Logs</h2>
+        <p class="text-sm text-gray-300">Inspect system logs for each pipeline run.</p>
+      </div>
+      <span class="text-3xl">→</span>
+    </a>
+  </div>
+
+  <div class="mt-10 text-sm text-gray-500">
+    <p>This tool monitors Pump.fun for new tokens, tracks tradability and performance, and logs all activity for review.</p>
+    <p class="mt-2">Built for analysis, alerts, and automation testing.</p>
+  </div>
+</section>
+
+<%- include('partials/footer') %>

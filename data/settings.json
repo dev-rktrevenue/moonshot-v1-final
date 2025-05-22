@@ -1,0 +1,10 @@
+{
+  "autoTrade": true,
+  "mode": "paper",
+  "maxOpenTrades": 3,
+  "investmentUSD": 5,
+  "minLiquidity": 3000,
+  "minVolume": 1000,
+  "minAgeSeconds": 30,
+  "telegramAlerts": true
+}

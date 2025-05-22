@@ -1,0 +1,40 @@
+https://quote-api.jup.ag/v6/quote?inputMint=${inputMint}&outputMint=${outputMint}&amount=${amount}&slippage=${slippage}
+
+https://quote-api.jup.ag/v6/quote?inputMint=GZF3vXjKUrRnh3Q3pLfE3534q77iZLH75SmUS2fLpump&outputMint=So11111111111111111111111111111111111111112&amount=1000000&slippage=1
+
+
+NANI COIN (NANI)
+Mint: GZF3vXjKUrRnh3Q3pLfE3534q77iZLH75SmUS2fLpump
+
+BoobTok (BoobTok)
+Mint: T8zmEuM1tg3eq67esWjnyDHDRQGmrG6w3ceaD25pump
+
+faking shitcoen bitcoen memkoin (shitcoen)
+Mint: 4d5edkwrothFygrgNbtknUd5uCTdSiiSxqeR4Kzhpump
+
+ASSUI (ASSUI)
+Mint: AUhTnH7gXoYAJXZGyVvVyvX4uZBGqqwsHFTh4UYbpump
+
+The First Bitcoin Alternative (ClitCoin)
+Mint: Hi47d7zBaTddEtp593RM9Apcxk3KGGfdKEypMTw6pump
+
+BUTTCOIN (BUTTCOIN)
+Mint: AUsonLPoacRmKwjz8KnQfjo2Z3hsZw9Z4FmwAk61pump
+
+ThickTok (ThickTok)
+Mint: 8b8vV4HTioTN9RP4qeKR3MncKq3PFVfFtZX4Rn2Epump
+
+BoobTok (BoobTok)
+Mint: cJhSugEvMDmr9avZMHptpXkMb5d8XZ8Dne332eapump
+
+catcoin (cat)
+Mint: FXq8mwW31pL7zvjsMzJTyXhKQmj3cpVPpLvsUbdLpump
+
+Chillers (Chillers)
+Mint: Cfb2kqopuogTM39GhwN7X8M1TJNG8NBD6LY1rGRApump
+
+Nipple (NRP)
+Mint: 9pQTFNSzB9UQnCdaNWsPJq8gDr3PF9tbVWxCxx4vpump
+
+New China Love Robot Dog (520)
+Mint: 81qBoxpseyY9k7YMbbyqYg57upQYhFGFYFLpdjebpump

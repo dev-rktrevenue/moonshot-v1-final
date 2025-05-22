@@ -1,0 +1,32 @@
+<%- include('partials/header') %>
+
+<section class="max-w-5xl mx-auto mt-10 px-4">
+  <h2 class="text-2xl font-bold mb-4">📜 System Logs</h2>
+
+  <form method="get" class="mb-4">
+    <label class="block text-sm font-medium text-gray-600 mb-1">Select log file:</label>
+    <div class="flex items-center gap-4">
+      <select name="file" onchange="this.form.submit()" class="p-2 rounded border border-gray-300">
+        <% logs.forEach(file => { %>
+          <option value="<%= file %>" <%= file === selected ? 'selected' : '' %>><%= file %></option>
+        <% }) %>
+      </select>
+
+      <% if (selected) { %>
+        <a href="/logs/download/<%= selected %>" class="bg-blue-600 hover:bg-blue-700 text-white text-sm px-4 py-2 rounded shadow">
+          ⬇️ Download Log
+        </a>
+      <% } %>
+    </div>
+  </form>
+
+  <% if (content) { %>
+    <div class="bg-gray-900 text-green-300 text-sm font-mono rounded p-4 overflow-x-auto max-h-[600px] border">
+      <pre><%= content %></pre>
+    </div>
+  <% } else { %>
+    <p class="text-gray-500">No logs found for this date.</p>
+  <% } %>
+</section>
+
+<%- include('partials/footer') %>

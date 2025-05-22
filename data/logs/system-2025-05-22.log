@@ -1,0 +1,92 @@
+[2025-05-22T11:32:20.436Z] [SNIPER] Running full pipeline
+[2025-05-22T11:35:47.198Z] [ERROR] ❌ Pipeline failed: Navigation timeout of 60000 ms exceeded
+[2025-05-22T11:37:19.941Z] [SNIPER] Running full pipeline
+[2025-05-22T11:39:33.289Z] [ERROR] ❌ Pipeline failed: Timed out after 30000 ms while waiting for the WS endpoint URL to appear in stdout!
+[2025-05-22T12:15:47.663Z] [SNIPER] Running full pipeline
+[2025-05-22T12:17:15.829Z] [SCRAPER] Scraped 40 token(s)
+[2025-05-22T12:17:37.325Z] [JUPITER] Checker complete
+[2025-05-22T12:19:01.359Z] [TRACKER] Price tracking complete
+[2025-05-22T12:19:01.586Z] [EVALUATOR] Performance check complete
+[2025-05-22T12:19:01.735Z] [ENTRY] Entry evaluation complete
+[2025-05-22T12:19:01.740Z] [SNIPER] ✅ Full pipeline complete
+[2025-05-22T12:20:46.845Z] [SNIPER] Running full pipeline
+[2025-05-22T12:22:44.848Z] [SNIPER] Running full pipeline
+[2025-05-22T12:24:37.139Z] [SCRAPER] Scraped 38 token(s)
+[2025-05-22T12:24:58.763Z] [JUPITER] Checker complete
+[2025-05-22T12:26:10.635Z] [TRACKER] Price tracking complete
+[2025-05-22T12:26:10.808Z] [EVALUATOR] Performance check complete
+[2025-05-22T12:26:10.925Z] [ENTRY] Entry evaluation complete
+[2025-05-22T12:26:10.928Z] [SNIPER] ✅ Full pipeline complete
+[2025-05-22T12:27:44.821Z] [SNIPER] Running full pipeline
+[2025-05-22T12:29:00.541Z] [SCRAPER] Scraped 44 token(s)
+[2025-05-22T12:29:21.171Z] [JUPITER] Checker complete
+[2025-05-22T12:30:32.093Z] [TRACKER] Price tracking complete
+[2025-05-22T12:30:32.229Z] [EVALUATOR] Performance check complete
+[2025-05-22T12:30:32.351Z] [ENTRY] Entry evaluation complete
+[2025-05-22T12:30:32.354Z] [SNIPER] ✅ Full pipeline complete
+[2025-05-22T12:32:44.831Z] [SNIPER] Running full pipeline
+[2025-05-22T12:34:09.613Z] [SCRAPER] Scraped 37 token(s)
+[2025-05-22T12:34:28.584Z] [JUPITER] Checker complete
+[2025-05-22T12:35:23.652Z] [TRACKER] Price tracking complete
+[2025-05-22T12:35:23.797Z] [EVALUATOR] Performance check complete
+[2025-05-22T12:35:23.889Z] [ENTRY] Entry evaluation complete
+[2025-05-22T12:35:23.895Z] [SNIPER] ✅ Full pipeline complete
+[2025-05-22T12:37:44.835Z] [SNIPER] Running full pipeline
+[2025-05-22T12:39:40.703Z] [SCRAPER] Scraped 43 token(s)
+[2025-05-22T12:40:02.226Z] [JUPITER] Checker complete
+[2025-05-22T12:41:13.775Z] [TRACKER] Price tracking complete
+[2025-05-22T12:41:14.343Z] [EVALUATOR] Performance check complete
+[2025-05-22T12:41:14.469Z] [ENTRY] Entry evaluation complete
+[2025-05-22T12:41:14.475Z] [SNIPER] ✅ Full pipeline complete
+[2025-05-22T12:42:44.841Z] [SNIPER] Running full pipeline
+[2025-05-22T12:44:33.522Z] [SCRAPER] Scraped 40 token(s)
+[2025-05-22T12:44:54.310Z] [JUPITER] Checker complete
+[2025-05-22T12:46:05.883Z] [TRACKER] Price tracking complete
+[2025-05-22T12:46:06.623Z] [EVALUATOR] Performance check complete
+[2025-05-22T12:46:06.720Z] [ENTRY] Entry evaluation complete
+[2025-05-22T12:46:06.728Z] [SNIPER] ✅ Full pipeline complete
+[2025-05-22T12:47:44.854Z] [SNIPER] Running full pipeline
+[2025-05-22T12:49:15.467Z] [SCRAPER] Scraped 39 token(s)
+[2025-05-22T12:49:35.380Z] [JUPITER] Checker complete
+[2025-05-22T12:50:49.094Z] [TRACKER] Price tracking complete
+[2025-05-22T12:50:49.287Z] [EVALUATOR] Performance check complete
+[2025-05-22T12:50:49.449Z] [ENTRY] Entry evaluation complete
+[2025-05-22T12:50:49.454Z] [SNIPER] ✅ Full pipeline complete
+[2025-05-22T12:52:44.869Z] [SNIPER] Running full pipeline
+[2025-05-22T12:54:10.163Z] [SCRAPER] Scraped 33 token(s)
+[2025-05-22T12:54:28.645Z] [JUPITER] Checker complete
+[2025-05-22T12:55:57.896Z] [TRACKER] Price tracking complete
+[2025-05-22T12:55:58.038Z] [EVALUATOR] Performance check complete
+[2025-05-22T12:55:58.118Z] [ENTRY] Entry evaluation complete
+[2025-05-22T12:55:58.122Z] [SNIPER] ✅ Full pipeline complete
+[2025-05-22T12:57:44.872Z] [SNIPER] Running full pipeline
+[2025-05-22T12:58:39.979Z] [SCRAPER] Scraped 41 token(s)
+[2025-05-22T12:59:01.412Z] [JUPITER] Checker complete
+[2025-05-22T13:00:41.324Z] [TRACKER] Price tracking complete
+[2025-05-22T13:00:41.472Z] [EVALUATOR] Performance check complete
+[2025-05-22T13:00:41.571Z] [ENTRY] Entry evaluation complete
+[2025-05-22T13:00:41.576Z] [SNIPER] ✅ Full pipeline complete
+[2025-05-22T13:02:44.881Z] [SNIPER] Running full pipeline
+[2025-05-22T13:03:46.787Z] [SCRAPER] Scraped 38 token(s)
+[2025-05-22T13:04:06.326Z] [JUPITER] Checker complete
+[2025-05-22T13:05:37.291Z] [TRACKER] Price tracking complete
+[2025-05-22T13:05:37.442Z] [EVALUATOR] Performance check complete
+[2025-05-22T13:05:37.593Z] [ENTRY] Entry evaluation complete
+[2025-05-22T13:05:37.597Z] [SNIPER] ✅ Full pipeline complete
+[2025-05-22T13:07:44.892Z] [SNIPER] Running full pipeline
+[2025-05-22T13:10:00.250Z] [ERROR] ❌ Pipeline failed: Waiting for selector `button` failed: Waiting failed: 30000ms exceeded
+[2025-05-22T13:12:45.165Z] [SNIPER] Running full pipeline
+[2025-05-22T13:15:55.601Z] [ERROR] ❌ Pipeline failed: Navigation timeout of 60000 ms exceeded
+[2025-05-22T13:17:46.221Z] [SNIPER] Running full pipeline
+[2025-05-22T13:19:00.721Z] [ERROR] ❌ Pipeline failed: Timed out after 30000 ms while waiting for the WS endpoint URL to appear in stdout!
+[2025-05-22T13:44:06.103Z] [SNIPER] Running full pipeline
+[2025-05-22T13:46:34.395Z] [ERROR] ❌ Pipeline failed: Navigation timeout of 60000 ms exceeded
+[2025-05-22T13:49:46.792Z] [SNIPER] Running full pipeline
+[2025-05-22T13:51:58.858Z] [ERROR] ❌ Pipeline failed: Navigation timeout of 60000 ms exceeded
+[2025-05-22T13:54:51.003Z] [SNIPER] Running full pipeline
+[2025-05-22T13:58:10.166Z] [ERROR] ❌ Pipeline failed: Navigation timeout of 60000 ms exceeded
+[2025-05-22T13:59:47.524Z] [SNIPER] Running full pipeline
+[2025-05-22T14:00:56.758Z] [ERROR] ❌ Pipeline failed: Timed out after 30000 ms while waiting for the WS endpoint URL to appear in stdout!
+[2025-05-22T14:04:48.400Z] [SNIPER] Running full pipeline
+[2025-05-22T14:08:27.114Z] [ERROR] ❌ Pipeline failed: Timed out after 30000 ms while waiting for the WS endpoint URL to appear in stdout!
+[2025-05-22T14:09:47.588Z] [SNIPER] Running full pipeline

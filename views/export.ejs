@@ -1,0 +1,30 @@
+<%- include('partials/header') %>
+
+<section class="max-w-4xl mx-auto mt-10 px-4">
+  <h2 class="text-2xl font-bold mb-4">📦 Export Token Data</h2>
+
+  <form method="get" class="mb-6">
+    <label class="block text-gray-700 mb-1 font-medium">Select date:</label>
+    <select name="date" onchange="this.form.submit()" class="p-2 rounded border border-gray-300 w-full max-w-sm">
+      <% dates.forEach(date => { %>
+        <option value="<%= date %>" <%= date === selectedDate ? 'selected' : '' %>><%= date %></option>
+      <% }) %>
+    </select>
+  </form>
+
+  <p class="text-sm text-gray-600 mb-4">Tokens available for <strong><%= selectedDate %></strong>: <%= tokenCount %></p>
+
+  <div class="flex gap-4 mb-6">
+    <a href="/export/json/<%= selectedDate %>.zip" 
+       class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded text-sm">
+      ⬇️ Download JSON ZIP
+    </a>
+
+    <a href="/export/csv/<%= selectedDate %>.csv" 
+       class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded text-sm">
+      ⬇️ Download CSV
+    </a>
+  </div>
+</section>
+
+<%- include('partials/footer') %>
